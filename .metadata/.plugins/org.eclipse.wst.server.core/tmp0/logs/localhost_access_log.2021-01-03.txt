@@ -3,3 +3,7 @@
 127.0.0.1 - - [03/Jan/2021:13:44:22 +0200] "GET / HTTP/1.1" 404 751
 0:0:0:0:0:0:0:1 - - [03/Jan/2021:13:44:23 +0200] "GET /Hello/ HTTP/1.1" 404 761
 0:0:0:0:0:0:0:1 - - [03/Jan/2021:13:44:42 +0200] "GET /Hello/Hello HTTP/1.1" 200 20
+127.0.0.1 - - [03/Jan/2021:14:10:11 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Jan/2021:14:10:11 +0200] "GET /SimpleProject/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [03/Jan/2021:14:10:21 +0200] "GET /SimpleProject/Home HTTP/1.1" 200 108
+0:0:0:0:0:0:0:1 - - [03/Jan/2021:14:11:10 +0200] "GET /SimpleProject/Home?firstName=Rahaf&lastName=Hosari&favLang=Java&homeTown=Ramallah HTTP/1.1" 200 103
